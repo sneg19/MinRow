@@ -1,0 +1,5 @@
+/home/sneg/Documents/C#/MinRow/obj/Debug/net7.0/MinRow.csproj.AssemblyReference.cache
+/home/sneg/Documents/C#/MinRow/obj/Debug/net7.0/MinRow.GeneratedMSBuildEditorConfig.editorconfig
+/home/sneg/Documents/C#/MinRow/obj/Debug/net7.0/MinRow.AssemblyInfoInputs.cache
+/home/sneg/Documents/C#/MinRow/obj/Debug/net7.0/MinRow.AssemblyInfo.cs
+/home/sneg/Documents/C#/MinRow/obj/Debug/net7.0/MinRow.csproj.CoreCompileInputs.cache
