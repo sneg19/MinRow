@@ -10,7 +10,7 @@
 
 /*
 1, Задать двумерный массив;
-2, Найти сумму элементов каждой строки;
+2, Найти суммы элементов каждой строки;
 3, Сравнить суммы элементов строки и найти наименьшую;
 4, Вывести номер строки и слово "строка". 
 */
@@ -40,20 +40,37 @@ void PrintArray(int[,] inArray) // Вывод массива на консоль
     }
 }
 
-int Sum (int[,] matrix)
+int[] Sum (int[,] matrix)
 {
-    
+    int[] sum = new int[matrix.GetLength(0)];
     for(int row = 0; row < matrix.GetLength(0); row++)
     {
         for(int column = 0; column < matrix.GetLength(1); column++)
         {
-            int sum;
-            sum += matrix[row, column];
+            sum[row] += matrix[row, column];
         }
-        sum = 0;
     }
     return sum;
 }
 
-int sum = Sum(GetArray(3, 4, 0, 10));
-Console.WriteLine(sum);
+int Proverka (int[] ourArray)
+{
+    int min = 0;
+    for (int i = 1; i < ourArray.Length; i++)
+    {
+        if(ourArray[i] < ourArray[min]) min = i;
+    }
+    return min;
+}
+
+void Main()
+{
+int[,] array = GetArray(3, 4, 0, 10);
+int[] sum = Sum(array);
+PrintArray(array);
+Console.WriteLine(String.Join(" ",sum));
+int min = Proverka(sum) + 1;
+System.Console.WriteLine($"{min} строка");
+}
+
+Main();

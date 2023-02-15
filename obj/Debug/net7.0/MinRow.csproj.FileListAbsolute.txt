@@ -3,3 +3,13 @@
 /home/sneg/Documents/C#/MinRow/obj/Debug/net7.0/MinRow.AssemblyInfoInputs.cache
 /home/sneg/Documents/C#/MinRow/obj/Debug/net7.0/MinRow.AssemblyInfo.cs
 /home/sneg/Documents/C#/MinRow/obj/Debug/net7.0/MinRow.csproj.CoreCompileInputs.cache
+/home/sneg/Documents/C#/MinRow/bin/Debug/net7.0/MinRow
+/home/sneg/Documents/C#/MinRow/bin/Debug/net7.0/MinRow.deps.json
+/home/sneg/Documents/C#/MinRow/bin/Debug/net7.0/MinRow.runtimeconfig.json
+/home/sneg/Documents/C#/MinRow/bin/Debug/net7.0/MinRow.dll
+/home/sneg/Documents/C#/MinRow/bin/Debug/net7.0/MinRow.pdb
+/home/sneg/Documents/C#/MinRow/obj/Debug/net7.0/MinRow.dll
+/home/sneg/Documents/C#/MinRow/obj/Debug/net7.0/refint/MinRow.dll
+/home/sneg/Documents/C#/MinRow/obj/Debug/net7.0/MinRow.pdb
+/home/sneg/Documents/C#/MinRow/obj/Debug/net7.0/MinRow.genruntimeconfig.cache
+/home/sneg/Documents/C#/MinRow/obj/Debug/net7.0/ref/MinRow.dll
